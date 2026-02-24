@@ -1,0 +1,117 @@
+body {
+  background-image: linear-gradient(to bottom, #141e30 20%, #35577d);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #f0f3ff;
+  margin: 0;
+  min-height: 100vh;
+}
+
+h2 {
+  color: #f0f3ff;
+  text-align: center;
+  font-size: 42px;
+  margin: auto;
+}
+
+h3 {
+  color: #f0f3ff;
+  margin-top: 7px;
+  margin-bottom: 3px;
+}
+#titolo {
+  width: 500px;
+}
+
+#scheda {
+  background-color: #243447;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  width: 450px;
+  max-width: 90%;
+  padding: 5px;
+}
+
+#pagina {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  min-height: 100vh;
+  width: 100%;
+}
+
+form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+form div {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+label {
+  color: white;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.compilazione {
+  display: block;
+  margin-bottom: 3px;
+  padding: 5px;
+  width: 100%;
+  border-radius: 5px;
+  border: 2px solid gray;
+  background-color: #7cc6fe;
+  color: black;
+  font-weight: bold;
+}
+
+.compilazione::placeholder {
+  color: black;
+  opacity: 0.4;
+}
+
+.compilazione:hover {
+  border-color: #f0f3ff;
+}
+
+.generi {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 10px 20px;
+}
+
+.genere {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  gap: 10px;
+}
+
+#blocco-termini {
+  padding-top: 5px;
+  margin-bottom: 0;
+}
+
+button {
+  background-color: #f0f3ff;
+  color: black;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #7cc6fe;
+}

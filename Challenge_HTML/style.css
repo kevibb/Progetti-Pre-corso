@@ -58,16 +58,19 @@ ul {
 
 .blocchi-esperienze {
   display: flex;
-  gap: 30px;
   flex-wrap: wrap;
+  flex-direction: column;
+  gap: 30px;
 }
 
 table {
   width: 100%;
 }
 
+tr,
 td {
-  padding: 8px 0;
+  border: 1px solid #cdbab1;
+  padding: 8px 5px;
 }
 
 #contatti-foto {
